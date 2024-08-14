@@ -1,6 +1,8 @@
 import Footer from "./componentes/Footer"
 import Home from "./componentes/Home"
+import Login from "./componentes/Login"
 import Navbar from "./componentes/Navbar"
+import Register from "./componentes/Register"
 
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
+      <Register/>
+      <Login/>
       <Footer/>
     </>
   )

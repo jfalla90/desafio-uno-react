@@ -12,8 +12,8 @@ const Navbar = ({logout = "🔓 Logout" , profile = "🔓 Profile" , login = "�
         <div className='tituloHeader'>
           <h3>¡Pizzería Mamma Mía!</h3>
           <p>🍕Home</p>
-          <p className={valores.token === false ? {logout} : {login}}>{valores.token}</p>
-          <p className={valores.token === true ? {profile} : {register}}>{valores.token}</p>
+          <p>{register}</p>
+          <p>{login}</p>          
         </div>
         <div>
           <p>🛒Total: $ {valores.total}</p>
